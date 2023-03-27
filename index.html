@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>First Frontend Mentor Solution | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 15px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a href="#"> <img src="./assets/images/logo.svg" alt="" /></a>
+        </div>
+
+        <nav>
+          <ul class="nav-ul open">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#" class="active">Trending</a></li>
+            <li><a href="#">Categories</a></li>
+          </ul>
+        </nav>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+    <!-- container -->
+    <section class="first-container">
+      <div class="col1">
+        <div class="one-image">
+          <img src="./assets/images/image-web-3-desktop.jpg" alt="" />
+        </div>
+        <div class="col1-content">
+          <div class="col-content-left">
+            <h1 class="col1-content-h1">The Bright Future of Web 3.0?</h1>
+          </div>
+          <div class="col-content-right">
+            <p class="col1-content-p">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <button class="col1-content-button">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="col2-container">
+          <h1 class="col2-h1">New</h1>
+          <div class="col2-content">
+            <h3 class="col2-content-h3">Hydrogen VS Electric Cars</h3>
+            <p class="col2-content-p">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <div class="col2-content">
+            <h3 class="col2-content-h3">The Downsides of AI Artistry</h3>
+            <p class="col2-content-p">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <div class="col2-content">
+            <h3 class="col2-content-h3">Is VC Funding Drying Up?</h3>
+            <p class="col2-content-p">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="second-container">
+      <div class="box-col mari">
+        <div class="box-col-image">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="" />
+        </div>
+        <div class="box-col-text">
+          <h1 class="h1-text">01</h1>
+          <h3 class="h3-text">Reviving Retro PCs</h3>
+          <p class="p-text">
+            What happens when old PCs are given modern upgrades?
+          </p>
+        </div>
+      </div>
+      <div class="box-col mari">
+        <div class="box-col-image">
+          <img src="./assets/images/image-top-laptops.jpg" alt="" />
+        </div>
+        <div class="box-col-text">
+          <h1 class="h1-text">02</h1>
+          <h3 class="h3-text">Top 10 Laptops of 2022</h3>
+          <p class="p-text">Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="box-col">
+        <div class="box-col-image">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="" />
+        </div>
+        <div class="box-col-text">
+          <h1 class="h1-text">03</h1>
+          <h3 class="h3-text">The Growth of Gaming</h3>
+          <p class="p-text">How the pandemic has sparked fresh opportunities</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">SilentCoder</a>.
+    </div> -->
+
+    <!-- <script type="tect/javascript" src="js/index.js"></script> -->
+    <script>
+      let menu = document.querySelector("#menu-icon");
+      let navul = document.querySelector(".nav-ul");
+
+      menu.onclick = () => {
+        menu.classList.toggle("bx-x");
+        navul.classList.toggle("open");
+      };
+
+      window.onscroll = () => {
+        menu.classList.remove("bx-x");
+        navul.classList.remove("open");
+      };
+      window.onload = () => {
+        menu.classList.remove("bx-x");
+        navul.classList.remove("open");
+      };
+    </script>
+  </body>
+</html>
