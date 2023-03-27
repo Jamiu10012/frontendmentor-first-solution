@@ -35,8 +35,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl/hub)
+- Live Site URL: [Add live site URL here](https://silentcoder-news-homepage-challenge.netlify.app/)
 
 ## My process
 
@@ -46,8 +46,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### Continued development
 
 i want to focus on website responsiveness
@@ -55,4 +53,4 @@ i want to focus on website responsiveness
 ## Author
 
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@yourusername](https://twitter.com/Ibrahim44332936)
